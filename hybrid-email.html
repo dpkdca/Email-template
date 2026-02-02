@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hermex Welcome</title>
+
+<style>
+  body {
+    margin:0;
+    padding:0;
+    background:#f3f3f3;
+    font-family: Inter, -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Roboto, Arial, Helvetica, sans-serif;
+  }
+  table {
+    border-collapse:collapse;
+  }
+  .container {
+    max-width:600px;
+    width:100%;
+    background:#ffffff;
+  }
+  .text-center { text-align:center; }
+  .fw-400 { font-weight:400; }
+  .fw-600 { font-weight:600; }
+  .fw-700 { font-weight:700; }
+  .fw-800 { font-weight:800; }
+  .h1 {
+    font-size:25px;
+    line-height:34px;
+    color:#212524;
+  }
+  .p {
+    font-size:22px;
+    color:#555;
+    line-height:30px;
+    font-family: 'Montserrat', Arial, sans-serif;
+  }
+  .btn {
+    background:#FF580D;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    padding:14px 28px;
+    border-radius:15px;
+    display:inline-block;
+  }
+  .coupon {
+    font-size:20px;
+    letter-spacing:2px;
+    color:#FF580D;
+    font-weight:700;
+    border:2px dashed #FF580D;
+    padding:10px 18px;
+    border-radius:10px;
+    display:inline-block;
+    font-family:'Montserrat', Arial, sans-serif;
+  }
+  /* MOBILE FIXES */
+  @media only screen and (max-width:600px) {
+    .h1 {
+      font-size:22px !important;
+      line-height:30px !important;
+    }
+    .p {
+      font-size:18px !important;
+      line-height:26px !important;
+    }
+    .stack {
+      display:block !important;
+      width:100% !important;
+      padding:10px 0 !important;
+    }
+    .btn {
+      font-size:16px !important;
+      width:100% !important;
+      box-sizing:border-box;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<table width="100%" bgcolor="#f3f3f3">
+<tr>
+<td align="center">
+
+<!-- CONTAINER -->
+<table class="container" cellpadding="0" cellspacing="0">
+
+<!-- LOGOS -->
+<tr>
+<td style="padding:15px 10px;">
+<table width="100%">
+<tr>
+<td align="left">
+<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/30d4525f-2efa-4366-8d55-cfcd8a40661e.png" width="180">
+</td>
+<td align="right">
+<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/0e02122e-b56e-4231-a8fd-f94ea4988219.png" width="33">
+<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/6bd853da-63d4-4a2f-9fc7-52220f9ecd2f.png" width="43">
+<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/f18f6983-3c29-4545-8706-86c4712347ec.png" width="41">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr><td><hr style="border:0;border-top:2px dashed #ccc;"></td></tr>
+
+<!-- HEADLINE -->
+<tr>
+<td class="text-center" style="padding:10px;"
+data-klaviyo-region="true" data-klaviyo-region-width-pixels="600">
+<p class="h1 fw-400">
+HERZLICH WILLKOMMEN<br>
+IN DER <span class="fw-800" style="border-bottom:4px solid #FF580D;">HERMEX FAMILIE!</span>
+</p>
+</td>
+</tr>
+
+<!-- HERO -->
+<tr>
+<td>
+<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png" width="100%" style="display:block;">
+</td>
+</tr>
+
+<!-- GREETING -->
+<tr>
+<td class="text-center" style="padding:25px 10px;">
+<p style="font-size:24px;font-weight:700;">
+Hallo <span class="fw-400">{{ first_name|default:"there" }}</span>
+</p>
+</td>
+</tr>
+
+<!-- MESSAGE -->
+<tr>
+<td class="text-center" style="padding:0 10px 25px 10px;"
+data-klaviyo-region="true">
+<p class="p">
+Als kleines Dankeschön für deine Anmeldung
+<strong>schenken wir dir <span style="color:#ff3b00;">10 % Rabatt</span></strong>
+auf deine erste Bestellung bei Hermex.ch.
+</p>
+</td>
+</tr>
+
+<!-- COUPON -->
+<tr>
+<td bgcolor="#1c1c1c" class="text-center" style="padding:30px 10px;">
+<p style="color:#fff;font-size:20px;">
+<span style="color:#ff3b00;">10% Rabatt</span> direkt an der Kasse*
+</p>
+
+<div class="coupon">QRCZNXZ3</div><br><br>
+
+<a href="https://hermex.ch" class="btn">JETZT BESTELLEN</a>
+
+<p style="font-size:12px;color:#aaa;margin-top:20px;">
+*Gültig für 48 Stunden • einmal pro Kunde einlösbar
+</p>
+</td>
+</tr>
+
+<!-- OUTER WRAPPER (fake shadow) -->
+<tr>
+  <td bgcolor="#ffffff" style="padding: 30px 10px;">
+    
+    <!-- CARD -->
+    <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:10px; border:1px solid #e6e6e6;">
+      <tbody><tr>
+        <td style="padding: 20px 12px;text-align:center;font-family:Arial, Helvetica, sans-serif;">
+
+          <h3>
+            Warum du Hermex lieben wirst
+          </h3>
+
+          <p>
+            Bei Hermex.ch findest du Qualitätsprodukte aus allen Bereichen,
+            direkt aus der Schweiz, mit Lager in Schaffhausen.
+          </p>
+
+          <p>
+            Bis 17 Uhr bestellt, morgen geliefert – schnell, fair und mit top Service.
+          </p>
+
+          <!-- ICON BOXES -->
+          <table width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;">
+            <tbody><tr>
+              <td width="32%" align="center" style="padding:0 3px;">
+                <table cellpadding="0" cellspacing="0" style="border:1px solid #e6e6e6;border-radius:6px;width: 100%;">
+                  <tbody><tr>
+                    <td style="padding: 20px 6px;text-align:center;">
+                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/e94c793d-1c19-41bf-9f17-141500f21d0c.png" width="35"><br>
+                      <span>Morgen geliefert</span>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+
+              <td width="32%" align="center" style="padding:0 3px;">
+                <table cellpadding="0" cellspacing="0" style="border:1px solid #e6e6e6;border-radius:6px;width: 100%;">
+                  <tbody><tr>
+                    <td style="padding: 20px 12px;text-align:center;">
+                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/fd499402-aa5d-41e8-b20a-f1dbfd507c33.png" width="35"><br>
+                      <span>CO₂-neutral</span>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+
+              <td width="32%" align="center" style="padding:0 3px;">
+                <table cellpadding="0" cellspacing="0" style="border:1px solid #e6e6e6;border-radius:6px;width: 100%;">
+                  <tbody><tr>
+                    <td style="padding: 20px 12px;text-align:center;">
+                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/581b21c8-9789-429b-991c-2f2ced1949a4.png" width="35"><br>
+                      <span>4.7★ bei Google</span>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- BUTTON -->
+          <table cellpadding="0" cellspacing="0" align="center" style="margin-top:20px;">
+            <tbody><tr>
+              <td bgcolor="#FF580D" style="padding: 14px 28px;border-radius: 15px;width: 80%;text-align: center;">
+                <a href="https://hermex.ch" >
+                  JETZT SHOPPEN
+                </a>
+              </td>
+            </tr>
+          </tbody></table>
+
+        </td>
+      </tr>
+    </tbody></table>
+
+  </td>
+</tr>
+
+
+<!-- TEXT DIVIDER SECTION -->
+<tr>
+  <td bgcolor="#FF0000" style="padding:50px 20px; text-align:center;">
+    <p >
+      Bild fehlt 
+    </p>
+  </td>
+</tr>
+
+<!-- TRUST SECTION -->
+<tr>
+  <td style="padding: 30px 10px 15px 10px;" bgcolor="#212524">
+    <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;max-width:600px;">
+      <tbody><tr>
+        <td style="padding: 20px 10px;text-align:center;">
+          <h3>
+            Werde der nächste zufriedene Kunde
+          </h3>
+          <p>
+            Bezahle sicher mit <strong style="color:#000">TWINT</strong> oder<strong style="color:#000"> PostFinance.</strong>
+            Deine Bestellung wird schnell und zuverlässig geliefert.
+          </p>
+
+          <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/f29ded0a-802d-4142-8280-79c728e59488.png" height="auto" width="300" style="margin-top: 5px;">
+
+          <table cellpadding="0" cellspacing="0" align="center" style="margin-top: 30px;">
+            <tbody><tr>
+              <td bgcolor="#FF580D" style="padding: 14px 28px;border-radius: 15px;width: 80%;text-align: center;">
+                <a href="https://hermex.ch" >
+                  ZURÜCK ZU HERMEX.CH
+                </a>
+              </td>
+            </tr>
+          </tbody></table>
+
+        </td>
+      </tr>
+    </tbody></table>
+  </td>
+</tr>
+
+<!-- GUARANTEE / FEATURES SECTION -->
+<tr> 
+  <td style="padding: 15px 10px 30px 10px;" bgcolor="#212524">
+    <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;max-width:600px;">
+      
+      <!-- ROW 1 -->
+      <tbody><tr>
+        <td style="padding: 10px 10px 10px 10px;">
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+
+              <!-- ITEM 1 -->
+              <td width="50%" valign="middle" style="padding-right:10px;">
+                <table cellpadding="0" cellspacing="0">
+                  <tbody><tr>
+                    <td valign="middle" width="30">
+                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/7bdfa375-3762-4413-8b9a-63c2a9b90704.png" width="30" alt="">
+                    </td>
+                    <td style="padding-left:10px;">
+                      <strong>25'000+ Produkte</strong><br>
+                      <span>
+                        Finde alles was du brauchst mit nur wenigen Klicks.
+                      </span>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+
+              <!-- ITEM 2 -->
+              <td width="50%" valign="middle" style="padding-left:10px;">
+                <table cellpadding="0" cellspacing="0">
+                  <tbody><tr>
+                    <td valign="middle" width="30">
+                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/0b6da1ad-b94e-47e5-83d6-2476242672fb.png" width="30" alt="">
+                    </td>
+                    <td style="padding-left:10px;">
+                      <strong>1-Tag-Lieferung</strong><br>
+                      <span>
+                        Schweizer Lager &amp; Versand mit der Schweizer Post.
+                      </span>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+
+      <!-- ROW 2 -->
+      <tr>
+        <td style="padding: 10px 10px 15px 10px;">
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+
+              <!-- ITEM 3 -->
+              <td width="50%" valign="middle" style="padding-right:10px;">
+                <table cellpadding="0" cellspacing="0">
+                  <tbody><tr>
+                    <td valign="middle" width="30">
+                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/6bd853da-63d4-4a2f-9fc7-52220f9ecd2f.png" width="30" alt="">
+                    </td>
+                    <td style="padding-left:10px;">
+                      <strong>Pro clima-Versand</strong><br>
+                      <span>
+                        Nachhaltig, fair und CO₂-kompensiert geliefert.
+                      </span>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+
+              <!-- ITEM 4 -->
+              <td width="50%" valign="middle" style="padding-left:10px;">
+                <table cellpadding="0" cellspacing="0">
+                  <tbody><tr>
+                    <td valign="middle" width="30">
+                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/f18f6983-3c29-4545-8706-86c4712347ec.png" width="30" alt="">
+                    </td>
+                    <td style="padding-left:10px;">
+                      <strong>Swiss Online Garantie</strong><br>
+                      <span>
+                        Unser Engagement für dich: Vertrauen und Qualität.
+                      </span>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+
+    </tbody></table>
+  </td>
+</tr>
+<tr>
+    <td>
+      <!-- Dashed Border -->
+      <hr style="border:0; border-top:2px dashed #000000; margin:0px 0;">
+    </td>
+  </tr>
+
+<!-- FOOTER -->
+<tr>
+<td bgcolor="#000" class="text-center" style="padding:20px;color:#fff;">
+{% unsubscribe %}
+</td>
+</tr>
+
+</table>
+<!-- END CONTAINER -->
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
