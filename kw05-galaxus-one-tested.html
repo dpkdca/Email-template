@@ -5,8 +5,6 @@
    <style>
 /* ===== MOBILE FIXES ===== */
 table.t20 {
-    box-shadow: 3.26px 1.63px 4.11px 0px #0000001A;
-    box-shadow: -3.26px -1.63px 5.54px 0px #0000001A;
 	border-radius: 8px !important;
 }
 @media only screen and (max-width: 600px) {
@@ -57,6 +55,9 @@ table.t20 {
   a {
     font-size: 16px !important;
   }
+  table.t4 a {
+        font-size: 12px !important;
+    }
   table.t20 td {
       padding: 15px !important;
   }
@@ -104,7 +105,7 @@ td.td64 {
 
         <!-- LOGOS -->
         <tbody><tr>
-          <td style="padding: 20px 25px;">
+          <td style="padding: 15px 15px;">
             <table width="100%" cellpadding="0" cellspacing="0" class="t3" bgcolor="#ffffff" style="background:#ffffff;">
               <tbody><tr>
                 <td align="left">
@@ -113,15 +114,11 @@ td.td64 {
                 <td align="right">
                   <table cellpadding="0" cellspacing="0" class="t4">
 					<tbody><tr>
-					  <td style="padding-left:10px;">
-						<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/0e02122e-b56e-4231-a8fd-f94ea4988219.png" width="33" height="33" style="display:block;">
-					  </td>
-					  <td style="padding-left:10px;">
-						<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/6bd853da-63d4-4a2f-9fc7-52220f9ecd2f.png" width="43" height="32" style="display:block;">
-					  </td>
-					  <td style="padding-left:10px;">
-						<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/f18f6983-3c29-4545-8706-86c4712347ec.png" width="41" height="41" style="display:block;">
-					  </td>
+						<td bgcolor="#FF580D" style="padding:10px 20px 10px 20px;border-radius: 15px;width: 80%;text-align: center;">
+                        <a href="https://hermex.ch" style="color:#ffffff;text-decoration:none;font-size: 15px;font-weight:bold;font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
+                         ZUM SHOP
+                        </a>
+                      </td>
 					</tr>
 				  </tbody></table>
                 </td>
@@ -136,62 +133,31 @@ td.td64 {
     </td>
   </tr>
 
-        <!-- HEADLINE -->
-        <tr>
-          <td style="padding: 25px 15px 10px 15px;">
-            <p class="h2" style="margin:0;margin-bottom:0;font-size: 45px;font-weight:400;color:#212524;text-align:center;font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-              HERZLICH WILLKOMMEN<br>
-              IN DER <span style="font-weight:800;border-bottom: 4px solid #FF580D;">HERMEX FAMILIE!</span>
-            </p>
-           
-          </td>
-        </tr>
-
-        <!-- HERO IMAGE -->
-        <tr>
-          <td style="padding:15px 0 0 0;">
-            <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png" class="hero" width="600" style="display:block; width:100%; max-width:600px; height:auto; margin:0 auto;">
-          </td>
-        </tr>
-
-        <!-- GREETING -->
-        <tr>
-          <td style="padding: 30px 30px 15px 30px;color:#000;" class="td62">
-            <p class="h3" style="margin:0;font-size: 32px;font-weight: 700;text-align: center;">
-              Hallo <strong style="font-weight: 400;">{{ first_name|default:"there" }}</strong>
-            </p>
-          </td>
-        </tr>
-
-        <!-- MESSAGE -->
-        <tr>
-          <td style="padding: 0 40px 30px 40px;color:#333;" class="td64">
-            <p class="p" style="margin:0;font-size: 22px;text-align: center;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-              Als kleines Dankeschön für deine Anmeldung
-              <strong>schenken wir dir <span style="color:#ff3b00;">10 % Rabatt</span></strong>
-              auf deine erste Bestellung bei Hermex.ch.
-            </p>
-          </td>
-        </tr>
-
         <!-- COUPON BOX -->
         <tr>
           <td align="center" style="padding:0 0px;">
-            <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#1c1c1c" style="max-width:600px;" class="t5">
+		    <div style="background-image:url('https://d3k81ch9hvuctc.cloudfront.net/company/WUQRkE/images/9be027c0-92ae-4a73-ab08-2a6340f7bf30.jpeg');
+      background-size:cover;
+      background-position:center;
+      max-width:600px;
+      width:100%;
+      
+      text-align:center;">
+            <table width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;" class="t5">
               <tbody><tr>
                 <td style="padding: 30px 30px;text-align:center;" class="td5">
+				<p class="h3" style="margin:0 0 10px 0;text-align: center;font-size: 32px;color:#fff;font-weight: 700;font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
+            SPORTFERIEN DEALS
+          </p>
+		 
                   <p style="margin:0;color:#ffffff;font-size: 22px;font-weight: 600;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-                    <span style="color:#ff3b00;">10% Rabatt</span> direkt an der Kasse*
+                    Bis zu<span style="color:#ff3b00;"> -45% Rabatt</span>
                   </p>
-
-                  <p class="h3" style="font-size: 32px;letter-spacing:2px;color: #FF580D;font-weight: 700;border:2px dashed #FF580D;padding: 5px 18px 10px 18px;/* margin-bottom: 25px; */display:inline-block;border-radius: 10px;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-                    QRCZNXZ3
-                  </p>
-
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
                   <!-- BUTTON -->
                   <table cellpadding="0" cellspacing="0" align="center" class="t6">
                     <tbody><tr>
-                      <td bgcolor="#FF580D" style="padding:14px 28px;border-radius: 15px;width: 80%;text-align: center;">
+                      <td bgcolor="#FF580D" style="padding:10px 28px 14px 28px;border-radius: 15px;width: 80%;text-align: center;">
                         <a href="https://hermex.ch" style="color:#ffffff;text-decoration:none;font-size: 26px;font-weight:bold;font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
                           JETZT BESTELLEN
                         </a>
@@ -199,10 +165,13 @@ td.td64 {
                     </tr>
                   </tbody></table>
 
-                  <p class="smallp" style="margin: 20px 0 0 0;font-size: 13px;color:#aaaaaa;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;padding: 0 50px;">*Gültig nur für 48 Stunden ⏰ - einmal pro Kunde einlösbar – kein Geldersatz möglich – nicht kombinierbar mit anderen Codes </p>
+               
                 </td>
               </tr>
             </tbody></table>
+			</div>
+			
+			
           </td>
         </tr>
         <!-- WHY HERMEX -->
@@ -214,68 +183,213 @@ td.td64 {
   <td bgcolor="#ffffff" style="padding: 30px 30px;" class="td56">
     
     <!-- CARD -->
-    <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 1.63px solid #C3C3C3;max-width:600px;" class="t20">
+    <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 1px solid #B7B7B7;max-width:600px;" class="t20">
       
       <tbody><tr>
+	  
+
         <td style="padding: 30px 30px;text-align:center;font-family:Arial, Helvetica, sans-serif;">
 
-          <p class="h3" style="margin:0 0 10px 0;text-align: center;font-size: 32px;color:#000;font-weight: 700;font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-            Warum du Hermex lieben wirst
+          <p class="h3" style="margin:0 0 10px 0;text-align: left;font-size: 32px;color:#000;font-weight: 700;font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
+            Snowboard-Rucksack
           </p>
-
-          <p class="p" style="margin:0 0 10px 0;font-size: 22px;color:#555;font-weight: 400;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-            Bei Hermex.ch findest du Qualitätsprodukte aus allen Bereichen,
-            direkt aus der Schweiz, mit Lager in Schaffhausen.
-          </p>
-
+		  
+<img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png" class="hero" width="600" style="display:block;width:100%;max-width:600px;height:auto;margin:0 auto;background-color: #98b1c8;border-radius: 10px;">
+</br>
           <p class="p" style="margin:0 0 20px 0;font-size: 22px;color:#555;font-weight: 400;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-            Bis 17 Uhr bestellt, morgen geliefert – schnell, fair und mit top Service.
+            Ausgewählte Artikel für dich.
           </p>
 
           <!-- ICON BOXES -->
+         <!-- ICON BOXES -->
           <table width="100%" cellpadding="5" cellspacing="5" style="max-width:600px;" class="t7">
             <tbody><tr>
-              <td width="32%" align="center" class="stack">
-                <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 1.63px solid #C3C3C3;max-width:600px;" class="t21">
+
+               <td width="24%" align="center" class="stack">
+                <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 0.8px solid #B7B7B7;max-width:600px;" class="t8">
                   <tbody><tr>
-                    <td style="padding: 18px 6px;text-align:center;">
-                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/e94c793d-1c19-41bf-9f17-141500f21d0c.png" width="35"><br>
-                      <span style="font-size: 16px;font-weight: 500;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">Morgen geliefert</span>
+                    <td style="text-align:left;">
+                     <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png" class="hero" width="600" style="display:block;width:100%;max-width:600px;height:auto;margin:0 auto;background-color: #98b1c8;border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                      
+<div style="font-family:Arial, Helvetica, sans-serif;padding: 12px;">
+  <div style="display:inline-block;border-radius:6px;padding-bottom: 10px;">
+	<span style="font-size: 22px;font-weight: 500;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;color: #494949;">Wechselglas für Skibrille</span>
+</div>
+<div style="display:inline-block;border-radius:6px;padding-bottom: 10px;"><span></span></div>
+  <!-- NEW PRICE -->
+  <div style="display:inline-block;border-radius:6px;padding: 3px 6px;border: 1.21px solid #EAEAEA;">
+    <span style="font-size:28px;font-weight:700;color:#ff5a00;">
+      20
+    </span>
+    <sup style="font-size:16px;font-weight:700;color:#ff5a00;border-bottom: 1px solid;">
+      65
+    </sup>
+  </div>
+
+  <!-- SPACE -->
+  <span style="display:inline-block;width:10px;"></span>
+
+  <!-- OLD PRICE -->
+  <div style="display:inline-block;">
+    <span style="font-size:22px;color:#555;text-decoration:line-through;">
+      22
+    </span>
+    <sup style="font-size:12px;color:#555;text-decoration:line-through;">
+      05
+    </sup>
+  </div>
+
+</div>
+
                     </td>
+					
                   </tr>
                 </tbody></table>
               </td>
 
-              <td width="32%" align="center" class="stack">
-                <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 1.63px solid #C3C3C3;max-width:600px;" class="t8">
+               <td width="24%" align="center" class="stack">
+                <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 0.8px solid #B7B7B7;max-width:600px;" class="t8">
                   <tbody><tr>
-                    <td style="padding: 18px 8px;text-align:center;">
-                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/fd499402-aa5d-41e8-b20a-f1dbfd507c33.png" width="35"><br>
-                      <span style="font-size: 16px;font-weight: 500;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">CO₂-neutral</span>
+                    <td style="text-align:left;">
+                     <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png" class="hero" width="600" style="display:block;width:100%;max-width:600px;height:auto;margin:0 auto;background-color: #98b1c8;border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                      
+<div style="font-family:Arial, Helvetica, sans-serif;padding: 12px;">
+  <div style="display:inline-block;border-radius:6px;padding-bottom: 10px;">
+	<span style="font-size: 22px;font-weight: 500;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;color: #494949;">Wechselglas für Skibrille</span>
+</div>
+<div style="display:inline-block;border-radius:6px;padding-bottom: 10px;"><span></span></div>
+  <!-- NEW PRICE -->
+  <div style="display:inline-block;border-radius:6px;padding: 3px 6px;border: 1.21px solid #EAEAEA;">
+    <span style="font-size:28px;font-weight:700;color:#ff5a00;">
+      20
+    </span>
+    <sup style="font-size:16px;font-weight:700;color:#ff5a00;border-bottom: 1px solid;">
+      65
+    </sup>
+  </div>
+
+  <!-- SPACE -->
+  <span style="display:inline-block;width:10px;"></span>
+
+  <!-- OLD PRICE -->
+  <div style="display:inline-block;">
+    <span style="font-size:22px;color:#555;text-decoration:line-through;">
+      22
+    </span>
+    <sup style="font-size:12px;color:#555;text-decoration:line-through;">
+      05
+    </sup>
+  </div>
+
+</div>
+
                     </td>
+					
                   </tr>
                 </tbody></table>
               </td>
 
-              <td width="32%" align="center" class="stack">
-                <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 1.63px solid #C3C3C3;max-width:600px;" class="t9">
-                  <tbody><tr>
-                    <td style="padding: 20px 8px;text-align:center;">
-                      <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/581b21c8-9789-429b-991c-2f2ced1949a4.png" width="35"><br>
-                      <span style="font-size: 16px;font-weight: 500;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">4.7★ bei Google</span>
-                    </td>
-                  </tr>
-                </tbody></table>
-              </td>
             </tr>
           </tbody></table>
+		  
+		  <!-- ICON BOXES -->
+          <table width="100%" cellpadding="5" cellspacing="5" style="max-width:600px;" class="t7">
+            <tbody><tr>
+             <td width="24%" align="center" class="stack">
+                <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 0.8px solid #B7B7B7;max-width:600px;" class="t8">
+                  <tbody><tr>
+                    <td style="text-align:left;">
+                     <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png" class="hero" width="600" style="display:block;width:100%;max-width:600px;height:auto;margin:0 auto;background-color: #98b1c8;border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                      
+<div style="font-family:Arial, Helvetica, sans-serif;padding: 12px;">
+  <div style="display:inline-block;border-radius:6px;padding-bottom: 10px;">
+	<span style="font-size: 22px;font-weight: 500;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;color: #494949;">Wechselglas für Skibrille</span>
+</div>
+<div style="display:inline-block;border-radius:6px;padding-bottom: 10px;"><span></span></div>
+  <!-- NEW PRICE -->
+  <div style="display:inline-block;border-radius:6px;padding: 3px 6px;border: 1.21px solid #EAEAEA;">
+    <span style="font-size:28px;font-weight:700;color:#ff5a00;">
+      20
+    </span>
+    <sup style="font-size:16px;font-weight:700;color:#ff5a00;border-bottom: 1px solid;">
+      65
+    </sup>
+  </div>
+
+  <!-- SPACE -->
+  <span style="display:inline-block;width:10px;"></span>
+
+  <!-- OLD PRICE -->
+  <div style="display:inline-block;">
+    <span style="font-size:22px;color:#555;text-decoration:line-through;">
+      22
+    </span>
+    <sup style="font-size:12px;color:#555;text-decoration:line-through;">
+      05
+    </sup>
+  </div>
+
+</div>
+
+                    </td>
+					
+                  </tr>
+                </tbody></table>
+              </td>
+
+              <td width="24%" align="center" class="stack">
+                <table width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:8px;border: 0.8px solid #B7B7B7;max-width:600px;" class="t8">
+                  <tbody><tr>
+                    <td style="text-align:left;">
+                     <img src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png" class="hero" width="600" style="display:block;width:100%;max-width:600px;height:auto;margin:0 auto;background-color: #98b1c8;border-top-left-radius: 5px;border-top-right-radius: 5px;">
+                      
+<div style="font-family:Arial, Helvetica, sans-serif;padding: 12px;">
+  <div style="display:inline-block;border-radius:6px;padding-bottom: 10px;">
+	<span style="font-size: 22px;font-weight: 500;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;color: #494949;">Wechselglas für Skibrille</span>
+</div>
+<div style="display:inline-block;border-radius:6px;padding-bottom: 10px;"><span></span></div>
+  <!-- NEW PRICE -->
+  <div style="display:inline-block;border-radius:6px;padding: 3px 6px;border: 1.21px solid #EAEAEA;">
+    <span style="font-size:28px;font-weight:700;color:#ff5a00;">
+      20
+    </span>
+    <sup style="font-size:16px;font-weight:700;color:#ff5a00;border-bottom: 1px solid;">
+      65
+    </sup>
+  </div>
+
+  <!-- SPACE -->
+  <span style="display:inline-block;width:10px;"></span>
+
+  <!-- OLD PRICE -->
+  <div style="display:inline-block;">
+    <span style="font-size:22px;color:#555;text-decoration:line-through;">
+      22
+    </span>
+    <sup style="font-size:12px;color:#555;text-decoration:line-through;">
+      05
+    </sup>
+  </div>
+
+</div>
+
+                    </td>
+					
+                  </tr>
+                </tbody></table>
+              </td>
+			  
+            </tr>
+          </tbody></table>
+
+
 
           <!-- BUTTON -->
           <table cellpadding="0" cellspacing="0" align="center" style="margin-top:20px;" class="t10">
             <tbody><tr>
               <td bgcolor="#FF580D" style="padding: 10px 28px 14px 28px;border-radius: 15px;width: 80%;text-align: center;">
                 <a href="https://hermex.ch" style="color:#ffffff;text-decoration:none;font-size: 26px;font-weight: 600;font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-                  JETZT SHOPPEN
+                  ZU DEN ANGEBOTEN →
                 </a>
               </td>
             </tr>
@@ -289,19 +403,10 @@ td.td64 {
 </tr>
 
 
-<!-- TEXT DIVIDER SECTION -->
-<tr>
-  <td bgcolor="#FF0000" style="padding: 60px 20px 100px 20px;text-align:center;">
-    <p class="p" style="margin:0;font-size: 18px;line-height:20px;color:#ffffff;font-weight: 700;font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, Helvetica, sans-serif;">
-      Bild fehlt 
-    </p>
-  </td>
-</tr>
-
 <!-- TRUST SECTION -->
 <tr>
-  <td style="padding: 30px 30px 10px 30px;" class="td58">
-     <div style="background-image:url('https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/9b4b2c25-2166-400c-a6ab-e78437aa8058.png');
+  <td style="padding: 0px 30px 30px 30px;" class="td58">
+     <div style="background-image:url('https://d3k81ch9hvuctc.cloudfront.net/company/WUQRkE/images/eb60d9bc-0ce3-4122-b12f-dc1b6f9d4123.png');
       background-size:cover;
       background-position:center;
       max-width:600px;
@@ -327,7 +432,7 @@ td.td64 {
 
         </td>
       </tr>
-    </tbody></table>1
+    </tbody></table>
     </div>
   </td>
 </tr>
@@ -478,10 +583,31 @@ td.td64 {
     </td>
   </tr>
 <tr>
-  <td bgcolor="#000000" style="padding: 18px 10px;text-align:center;color:#fff;">
-    <img class="paymenticon" src="https://d3k81ch9hvuctc.cloudfront.net/company/Y7jyzn/images/0da951c4-1219-457f-ba48-338b42ed5c20.png" style="width: 90%;">
+  <td align="center" bgcolor="#000000" style="padding:20px;color:#fff;font-size:13px;font-family:Arial, Helvetica, sans-serif;line-height:20px;">
+
+    Kannst du diese E-Mail nicht richtig sehen?<br>
+    <a href="{% web_view %}" style="color:#fff;text-decoration:none;">
+      {% web_view 'Im Browser ansehen' %}
+    </a>
+
+    <br><br>
+
+    © {% current_year %} HERMEX AG<br>
+    Ebnatrring 35, 8200 Schaffhausen, Schweiz
+
+    <br><br>
+
+    <a href="{% manage_preferences %}" style="color:#fff;text-decoration:none;">
+      {% manage_preference 'Einstellungen aktualisieren' %}
+    </a>
+    &nbsp;|&nbsp; </br>
+    <a href="{% unsubscribe %}" style="color:#fff;text-decoration:none;">
+      {% unsubscribe 'Abmelden' %}
+    </a>
+
   </td>
 </tr>
+
 
 
       </tbody></table>
